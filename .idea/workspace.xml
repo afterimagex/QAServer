@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6486c9-5b66-4404-b1a6-2b02befc9f22" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QAServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QAServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/runserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qaserver/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/libs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qaserver/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,15 +50,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qaserver/utils" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qaserver/handlers" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="I:\GitHub\QAServer\SeetaQAServer" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qaserver/utils" />
+      <recent name="$PROJECT_DIR$/qaserver/static" />
+      <recent name="$PROJECT_DIR$/qaserver/handlers/base" />
+      <recent name="$PROJECT_DIR$/qaserver/handlers/public" />
+      <recent name="$PROJECT_DIR$/qaserver" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
@@ -88,29 +116,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="QAServer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,29 +129,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qaserver/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeetaQAServer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeetaQAServer/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qaserver/application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,8 +164,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
@@ -213,6 +195,8 @@
       <workItem from="1577157614856" duration="602000" />
       <workItem from="1577158294244" duration="603000" />
       <workItem from="1577160819241" duration="1327000" />
+      <workItem from="1577194025296" duration="3996000" />
+      <workItem from="1577199342327" duration="4662000" />
     </task>
     <servers />
   </component>
@@ -220,6 +204,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="272" y="71" key="#Inspections" timestamp="1577195189973">
+      <screen x="0" y="23" width="1344" height="766" />
+    </state>
+    <state x="272" y="71" key="#Inspections/0.23.1344.766@0.23.1344.766" timestamp="1577195189973" />
+    <state x="136" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577195350930">
+      <screen x="0" y="23" width="1344" height="766" />
+    </state>
+    <state x="136" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1344.766@0.23.1344.766" timestamp="1577195350930" />
+    <state x="376" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577200985245">
+      <screen x="0" y="23" width="1344" height="768" />
+    </state>
+    <state x="376" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1344.840@0.0.1344.840" timestamp="1577198131594" />
+    <state x="376" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1344.768@0.23.1344.768" timestamp="1577200985245" />
     <state x="668" y="137" key="#manage" timestamp="1577160924138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -228,33 +225,48 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="594" y="115" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577162767001" />
-    <state width="938" height="285" key="GridCell.Tab.0.bottom" timestamp="1577157563311">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1302" height="166" key="GridCell.Tab.0.bottom" timestamp="1577201363080">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
+    <state width="620" height="194" key="GridCell.Tab.0.bottom/0.0.1344.840@0.0.1344.840" timestamp="1577196798571" />
     <state width="938" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577157563311" />
-    <state width="938" height="285" key="GridCell.Tab.0.center" timestamp="1577157563311">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1302" height="194" key="GridCell.Tab.0.bottom/0.23.1344.766@0.23.1344.766" timestamp="1577195359305" />
+    <state width="1302" height="166" key="GridCell.Tab.0.bottom/0.23.1344.768@0.23.1344.768" timestamp="1577201363080" />
+    <state width="1302" height="166" key="GridCell.Tab.0.center" timestamp="1577201363079">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
+    <state width="620" height="194" key="GridCell.Tab.0.center/0.0.1344.840@0.0.1344.840" timestamp="1577196798570" />
     <state width="938" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577157563311" />
-    <state width="938" height="285" key="GridCell.Tab.0.left" timestamp="1577157563311">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1302" height="194" key="GridCell.Tab.0.center/0.23.1344.766@0.23.1344.766" timestamp="1577195359304" />
+    <state width="1302" height="166" key="GridCell.Tab.0.center/0.23.1344.768@0.23.1344.768" timestamp="1577201363079" />
+    <state width="1302" height="166" key="GridCell.Tab.0.left" timestamp="1577201363078">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
+    <state width="620" height="194" key="GridCell.Tab.0.left/0.0.1344.840@0.0.1344.840" timestamp="1577196798570" />
     <state width="938" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577157563311" />
-    <state width="938" height="285" key="GridCell.Tab.0.right" timestamp="1577157563311">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1302" height="194" key="GridCell.Tab.0.left/0.23.1344.766@0.23.1344.766" timestamp="1577195359303" />
+    <state width="1302" height="166" key="GridCell.Tab.0.left/0.23.1344.768@0.23.1344.768" timestamp="1577201363078" />
+    <state width="1302" height="166" key="GridCell.Tab.0.right" timestamp="1577201363080">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
+    <state width="620" height="194" key="GridCell.Tab.0.right/0.0.1344.840@0.0.1344.840" timestamp="1577196798571" />
     <state width="938" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577157563311" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1577179484257">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1302" height="194" key="GridCell.Tab.0.right/0.23.1344.766@0.23.1344.766" timestamp="1577195359304" />
+    <state width="1302" height="166" key="GridCell.Tab.0.right/0.23.1344.768@0.23.1344.768" timestamp="1577201363080" />
+    <state x="205" y="66" key="SettingsEditor" timestamp="1577198934860">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
+    <state x="205" y="47" key="SettingsEditor/0.0.1344.840@0.0.1344.840" timestamp="1577198415741" />
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577179484257" />
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1577157293145">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="205" y="66" key="SettingsEditor/0.23.1344.768@0.23.1344.768" timestamp="1577198934860" />
+    <state x="448" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1577199342833">
+      <screen x="0" y="23" width="1344" height="768" />
     </state>
     <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1577157293145" />
+    <state x="448" y="278" key="com.intellij.ide.util.TipDialog/0.23.1344.768@0.23.1344.768" timestamp="1577199342833" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/QAServer$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1577157423404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qaserver" />
-    <SUITE FILE_PATH="coverage/QAServer$server.coverage" NAME="server Coverage Results" MODIFIED="1577179527414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeetaQAServer" />
+    <SUITE FILE_PATH="coverage/QAServer$server.coverage" NAME="server Coverage Results" MODIFIED="1577201363069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qaserver" />
+    <SUITE FILE_PATH="coverage/QAServer$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1577195205675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qaserver" />
   </component>
 </project>
