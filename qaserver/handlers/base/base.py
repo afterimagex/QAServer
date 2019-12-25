@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+# 
+# Copyright 2016 The TensorFlow Authors All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,10 +15,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# @Time    : 2019/12/24 0024 12:45
+# @Time    : 2019/12/25 0025 14:34
 # @Author  : peichao.xu
 # @Email   : xj563853580@outlook.com
-# @File    : __init__.py
+# @File    : base.py
 
 # ==============================================================================
 
@@ -25,13 +27,14 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import os
+import tornado.web
 
-settings = dict(
-    template_path=os.path.join(os.path.dirname(__file__), '../templates'),
-    static_path=os.path.join(os.path.dirname(__file__), '../static'),
-    xsrf_cookies=True,
-    cookie_secret='RYxFqFQyRCiCZ/nxFfTMCrbqZpRZ5UW9tQ86fKvrfIw=',
-    debug=True,
-    static_url_prefix='/static/',
-)
+
+class BaseHandler(tornado.web.RequestHandler):
+    def __init__(self, application, request, **kwargs):
+        super(BaseHandler, self).__init__(application, request, **kwargs)
+
+    def set_default_headers(self) -> None:
+        self.set_header('Access-Control-Allow-Origin', '*')
+        self.set_header('Access-Control-Allow-Headers', 'x-requested-with')
+        self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')

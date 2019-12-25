@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#
+# 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# @Time    : 2019/12/24 0024 12:45
+# @Time    : 2019/12/25 0025 13:24
 # @Author  : peichao.xu
 # @Email   : xj563853580@outlook.com
-# @File    : __init__.py
+# @File    : test_settings.py
 
 # ==============================================================================
 
@@ -25,13 +25,25 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import os
+from qaserver.settings import base
+from qaserver.settings import develop
 
-settings = dict(
-    template_path=os.path.join(os.path.dirname(__file__), '../templates'),
-    static_path=os.path.join(os.path.dirname(__file__), '../static'),
-    xsrf_cookies=True,
-    cookie_secret='RYxFqFQyRCiCZ/nxFfTMCrbqZpRZ5UW9tQ86fKvrfIw=',
-    debug=True,
-    static_url_prefix='/static/',
-)
+# import pytest
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+
+
+class TestCase:
+    def test_base(self):
+        _settings = base.settings
+        logging.debug(_settings)
+
+    def test_develop(self):
+        _settings = develop
+        logging.debug(_settings)
+
+
+if __name__ == '__main__':
+    _settings = develop.settings
+    logging.debug(_settings)

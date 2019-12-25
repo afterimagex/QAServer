@@ -26,3 +26,14 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
+
+import os
+
+settings = dict(
+    template_path=os.path.join(os.path.dirname(__file__), '../templates'),
+    static_path=os.path.join(os.path.dirname(__file__), '../static'),
+    xsrf_cookies=True,
+    cookie_secret='RYxFqFQyRCiCZ/nxFfTMCrbqZpRZ5UW9tQ86fKvrfIw=',
+    debug=False,
+    static_url_prefix='/static/',
+)

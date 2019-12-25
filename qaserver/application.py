@@ -28,7 +28,7 @@ from __future__ import unicode_literals
 import click
 import os
 import sys
-import tornado
+import tornado.web
 
 from importlib import import_module
 from logging.config import dictConfig
@@ -45,9 +45,11 @@ def make_app(debug=None):
 @click.option('--port', default=9090, help='The port of server.')
 @click.option('--profile', default='develop', help='The profile.')
 def run_app(port, profile):
-    settings = import_module(f'qaserver.settings.{profile}')
+    settings = import_module(f'qaserver.settings.{profile}').settings
     tornado.settings = settings
+    dictConfig(tornado.settings.LOGGING)
     app = make_app(settings.DEBUG)
+    app.listen(port)
     app.sentry_client = AsyncSentryClient(
         '<sentry>'
     )

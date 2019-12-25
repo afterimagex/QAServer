@@ -25,10 +25,9 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import tornado.web
+from qaserver.handlers import base
+from qaserver.handlers import public
 
-from qaserver.application import make_app
-
-urls = [(r"^/(favicon\.ico)", tornado.web.StaticFileHandler,
-         dict(path=application.settings['static_path']))]
-urls += [(r"^/", "handlers.index.IndexHandler")]
+urls = [
+    (r"add_video", AddVideo)
+]

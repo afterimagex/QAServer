@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#
+# 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# @Time    : 2019/12/24 0024 12:45
+# @Time    : 2019/12/25 0025 14:26
 # @Author  : peichao.xu
 # @Email   : xj563853580@outlook.com
-# @File    : __init__.py
+# @File    : add_video.py
 
 # ==============================================================================
 
@@ -25,13 +25,19 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import os
+from qaserver.handlers.base import BaseHandler
 
-settings = dict(
-    template_path=os.path.join(os.path.dirname(__file__), '../templates'),
-    static_path=os.path.join(os.path.dirname(__file__), '../static'),
-    xsrf_cookies=True,
-    cookie_secret='RYxFqFQyRCiCZ/nxFfTMCrbqZpRZ5UW9tQ86fKvrfIw=',
-    debug=True,
-    static_url_prefix='/static/',
-)
+
+class AddVideoHandler(BaseHandler):
+    def __init__(self, application, request, **kwargs):
+        super(AddVideoHandler, self).__init__(application, request, **kwargs)
+
+
+class DelVideoHandler(BaseHandler):
+    def __init__(self, application, request, **kwargs):
+        super(DelVideoHandler, self).__init__(application, request, **kwargs)
+
+
+class VideoInfoHandler(BaseHandler):
+    def __init__(self, application, request, **kwargs):
+        super(VideoInfoHandler, self).__init__(application, request, **kwargs)
