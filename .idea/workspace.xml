@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e6486c9-5b66-4404-b1a6-2b02befc9f22" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QAServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QAServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/handlers/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/handlers/base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/handlers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/handlers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qaserver/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/qaserver/static/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +239,7 @@
       <workItem from="1577160819241" duration="1327000" />
       <workItem from="1577194025296" duration="3996000" />
       <workItem from="1577199342327" duration="4662000" />
-      <workItem from="1577238846146" duration="13633000" />
+      <workItem from="1577238846146" duration="14856000" />
     </task>
     <servers />
   </component>

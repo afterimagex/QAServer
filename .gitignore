@@ -1,7 +1,7 @@
-.idea
-.pytest_cache
-__pycache__
-build
+.idea/
+.pytest_cache/
+__pycache__/
+build/
 *.pb
 *.jpg
 *.pyc
